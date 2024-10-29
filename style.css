@@ -117,3 +117,25 @@ body, html {
     background-color: rgb(3, 153, 93);
     transition: 0.5s;
 }
+
+.input-field {
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #2A701D;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    outline: none;
+  }
+  
+  /* Estilo para o botão */
+  .save-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #2A701D;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
