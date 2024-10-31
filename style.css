@@ -5,6 +5,7 @@ body, html {
     font-family: Arial, sans-serif;
     background-color: rgb(87, 86, 86);
     font-family: 'Courier New', Courier, monospace;
+    color: white;
 }
 
 #circle {
@@ -94,6 +95,7 @@ body, html {
     color: red;
     margin-bottom: 10px;
     text-align: center;
+    font-weight: bold;
 }
 
 .score-display {
@@ -101,6 +103,7 @@ body, html {
     color: white;
     margin-bottom: 20px;
     text-align: center;
+    font-weight: bold;
 }
 
 .restart-button {
@@ -118,15 +121,17 @@ body, html {
     transition: 0.5s;
 }
 
-.input-field {
+.name-input {
     text-align: center;
-    padding: 10px;
     font-size: 16px;
+    padding: 5px;
     border: 2px solid #2A701D;
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     outline: none;
-  }
+    margin-top: 30px;
+    margin-bottom: 15px;    
+}
   
   /* Estilo para o botão */
   .save-button {
